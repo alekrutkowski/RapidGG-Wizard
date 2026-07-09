@@ -1,0 +1,34 @@
+Package: rapidggwizard
+Title: Browser-Based Point-and-Click Builder for ggplot2
+Version: 0.1.5
+Authors@R: person("Alek", "Rutkowski", email = "alek.rutkowski@gmail.com", role = c("aut", "cre"))
+Description: A browser wizard for building ggplot2 charts visually with WebR or a local R backend. The app provides drag-and-drop aesthetic mappings, visual plot templates, rich styling controls, reproducible R code, JSON state export and import, and chart export to SVG, PNG, PDF, JPG, TIFF, and EMF.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Imports:
+    base64enc,
+    jsonlite,
+    plumber
+Suggests:
+    ggplot2,
+    scales,
+    ggrepel,
+    ggtext,
+    latex2exp,
+    ggthemes,
+    ggridges,
+    ggbeeswarm,
+    hexbin,
+    MASS,
+    svglite,
+    ragg,
+    devEMF,
+    systemfonts,
+    showtext,
+    sysfonts,
+    remotes
+URL: https://github.com/AlekRutkowski/rapidggwizard
+BugReports: https://github.com/AlekRutkowski/rapidggwizard/issues
