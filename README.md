@@ -2,8 +2,8 @@
 
 RapidGG Wizard is an [R](https://www.r-project.org/) package containing a browser-based, point-and-click builder for [`ggplot2`](https://ggplot2.tidyverse.org/index.html) charts. It runs with either:
 
-1. **Local R**, served by a small Plumber backend, or
-2. **WebR**, running R directly inside the browser: see https://alekrutkowski.github.io/RapidGG-Wizard/
+1. **Local R**, served by a small [plumber](https://www.rplumber.io/) backend, or
+2. [**WebR**](https://docs.r-wasm.org/webr/), running R directly inside the browser: see https://alekrutkowski.github.io/RapidGG-Wizard/
 
 The app focuses on fast visual exploration, reproducible output, and a clean interface. Every chart can be exported as a plot file, an annotated R script, and a JSON state file that restores the wizard exactly.
 
