@@ -33,7 +33,7 @@ Install the package from GitHub:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("alekrutkowski/rapidggwizard")
+remotes::install_github("alekrutkowski/RapidGG-Wizard")
 ```
 
 Install the suggested plotting packages for the richest experience:
